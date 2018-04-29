@@ -5,13 +5,16 @@
   <title>Document</title>
   <script src="script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
   <h1 id="main">Hello world</h1>
   <p>Football</p>
- <script>
+<script>
    $("#main").slideUp(3000).slideDown(2000);
    $("body").append("<p> NEW LIne</p>");
+   $("p").fadeTo(3000, 0.5);
   </script>
+  
 </body>
 </html>
