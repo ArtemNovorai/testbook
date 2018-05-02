@@ -20,6 +20,10 @@ var width = 800;
 var height = 600;
 var clicks = 0;
 
+var target = {
+  x: Random(width);
+  y: Random(height);
+};
 
 $("#map").click(function (event) {
   clicks++;
