@@ -26,7 +26,7 @@ var target = {
 };
 
 $("#map").click(function (event) {
-  clicks++;
+  
   var distance = DistanceHit (event, target);
   var DST = Distance(distance);
   $("#distance").text(DST);
